@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">טופס הרשמה לתלמיד</string>
+    <string name="screen_title">טופס הרשמה לתלמיד</string>
+
+    <string name="first_name_label">שם פרטי</string>
+    <string name="first_name_hint">הכניסו שם פרטי</string>
+
+    <string name="last_name_label">שם משפחה</string>
+    <string name="last_name_hint">הכניסו שם משפחה</string>
+
+    <string name="email_label">אימייל</string>
+    <string name="email_hint">name@example.com</string>
+
+    <string name="grade_label">כיתה</string>
+    <string name="grade_10">י׳</string>
+    <string name="grade_11">י״א</string>
+    <string name="grade_12">י״ב</string>
+
+    <string name="major_label">מגמה</string>
+    <string name="major_prompt">בחרו מגמה</string>
+    <string name="major_computer_science">מדעי המחשב</string>
+    <string name="major_physics">פיזיקה</string>
+    <string name="major_biology">ביולוגיה</string>
+    <string name="major_art">אמנות</string>
+
+    <string name="notifications_label">אני מעוניין/ת לקבל התראות</string>
+    <string name="terms_label">אני מאשר/ת את תנאי השימוש</string>
+
+    <string name="submit_button">הרשמה</string>
+
+    <string name="saved_title">הנתונים השמורים שלך:</string>
+    <string name="result_title">פרטי התלמיד שנרשם:</string>
+
+    <string name="result_first_name">שם פרטי: %1$s</string>
+    <string name="result_last_name">שם משפחה: %1$s</string>
+    <string name="result_email">אימייל: %1$s</string>
+    <string name="result_grade">כיתה: %1$s</string>
+    <string name="result_major">מגמה: %1$s</string>
+
+    <string name="result_notifications_yes">קבלת התראות: כן</string>
+    <string name="result_notifications_no">קבלת התראות: לא</string>
+    <string name="result_terms">תנאי שימוש: אושרו</string>
+
+    <string name="error_first_name">יש להזין שם פרטי.</string>
+    <string name="error_last_name">יש להזין שם משפחה.</string>
+    <string name="error_email_required">יש להזין כתובת אימייל.</string>
+    <string name="error_email_invalid">כתובת האימייל אינה תקינה.</string>
+    <string name="error_grade">יש לבחור כיתה.</string>
+    <string name="error_major">יש לבחור מגמה.</string>
+    <string name="error_terms">יש לאשר את תנאי השימוש כדי להמשיך.</string>
+
+    <string-array name="majors">
+        <item>@string/major_prompt</item>
+        <item>@string/major_computer_science</item>
+        <item>@string/major_physics</item>
+        <item>@string/major_biology</item>
+        <item>@string/major_art</item>
+    </string-array>
+
+</resources>
